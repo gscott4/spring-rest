@@ -15,10 +15,10 @@ public class HelloWorldController {
     @Autowired
     private MessageSource messageSource;
 
-    @GetMapping(path = "/")
+    /*@GetMapping(path = "/")
     public String helloWorld() {
         return "Hello World";
-    }
+    }*/
 
     @GetMapping(path = "/hello-world-bean")
     public HelloWorldBean helloWorldBean() {
